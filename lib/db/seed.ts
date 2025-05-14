@@ -1,6 +1,6 @@
 import { loadEnvConfig } from "@next/env";
 import { cwd } from "process";
-import data from "../data";
+import data from "@/lib/data";
 import { connectDB } from ".";
 import Product from "./models/product.model";
 
